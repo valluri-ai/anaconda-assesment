@@ -1,0 +1,26 @@
+{
+  "name": "anaconda-assesment-1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valluri-ai/anaconda-assesment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/valluri-ai/anaconda-assesment/issues"
+  },
+  "homepage": "https://github.com/valluri-ai/anaconda-assesment#readme",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "uuid": "^11.1.0"
+  }
+}

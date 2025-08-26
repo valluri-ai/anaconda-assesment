@@ -1,0 +1,29 @@
+{
+  "name": "anaconda-assesment-src",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Node package for src utilities and tooling",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "dev": "tsx --watch",
+    "test": "echo \"No tests defined in src yet\" && exit 0"
+  },
+  "dependencies": {
+    "@livestore/livestore": "^0.3.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^22.7.3",
+    "@types/uuid": "^9.0.7",
+    "jest": "^30.0.5",
+    "ts-jest": "^29.4.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.2",
+    "uuid": "^11.1.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
