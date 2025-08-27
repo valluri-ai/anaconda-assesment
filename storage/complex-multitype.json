@@ -1,0 +1,33 @@
+[
+  {
+    "name": "v1.ActorProfileSet",
+    "args": {
+      "id": "user-585522db-4ede-4516-9328-923ff7a9c31a",
+      "type": "human",
+      "displayName": "Notebook Importer"
+    }
+  },
+  {
+    "name": "v1.NotebookTitleChanged",
+    "args": {
+      "title": "Imported Notebook - 8/26/2025"
+    }
+  },
+  {
+    "name": "v2.CellCreated",
+    "args": {
+      "id": "cell-3a4f6c72-f294-4dde-aff2-b313603b8281",
+      "cellType": "code",
+      "createdBy": "user-585522db-4ede-4516-9328-923ff7a9c31a",
+      "fractionalIndex": "m"
+    }
+  },
+  {
+    "name": "v1.CellSourceChanged",
+    "args": {
+      "id": "cell-3a4f6c72-f294-4dde-aff2-b313603b8281",
+      "source": "{\n  \"cells\": [\n    {\"cell_type\": \"markdown\", \"metadata\": {}, \"source\": [\"# Complex Multi-type Notebook\\n\", \"Contains many output types.\\n\"]},\n    {\"cell_type\": \"raw\", \"metadata\": {}, \"source\": [\"RAW CONTENT: Preserve as-is.\\n\"]},\n    {\"cell_type\": \"code\", \"metadata\": {}, \"execution_count\": 1, \"outputs\": [\n      {\"output_type\": \"stream\", \"name\": \"stdout\", \"text\": [\"Hello stdout\\n\"]},\n      {\"output_type\": \"stream\", \"name\": \"stderr\", \"text\": [\"Warning on stderr\\n\"]}\n    ], \"source\": [\"print('Hello stdout')\\n\", \"import sys; print('Warning on stderr', file=sys.stderr)\\n\"]},\n    {\"cell_type\": \"code\", \"metadata\": {}, \"execution_count\": 2, \"outputs\": [\n      {\"output_type\": \"execute_result\", \"execution_count\": 2, \"metadata\": {}, \"data\": {\n        \"text/plain\": [\"42\"],\n        \"application/json\": {\"answer\": 42},\n        \"text/html\": [\"<i>forty-two</i>\"]\n      }}\n    ], \"source\": [\"42\\n\"]},\n    {\"cell_type\": \"code\", \"metadata\": {}, \"execution_count\": 3, \"outputs\": [\n      {\"output_type\": \"display_data\", \"metadata\": {}, \"data\": {\n        \"text/plain\": [\"plot\"],\n        \"image/png\": \"iVBORw0KGgo=\"\n      }}\n    ], \"source\": [\"# pretend image display\\n\"]},\n    {\"cell_type\": \"code\", \"metadata\": {}, \"execution_count\": 4, \"outputs\": [\n      {\"output_type\": \"error\", \"ename\": \"ZeroDivisionError\", \"evalue\": \"division by zero\", \"traceback\": [\n        \"Traceback (most recent call last):\",\n        \"  File \\\"<ipython-input-1>\\\", line 1, in <module>\",\n        \"ZeroDivisionError: division by zero\"\n      ]}\n    ], \"source\": [\"1/0\\n\"]},\n    {\"cell_type\": \"code\", \"metadata\": {}, \"execution_count\": 5, \"outputs\": [], \"source\": [\"# no output cell\\n\", \"x = 5\\n\"]}\n  ],\n  \"metadata\": {\n    \"kernelspec\": {\"display_name\": \"Python 3\", \"language\": \"python\", \"name\": \"python3\"},\n    \"language_info\": {\"name\": \"python\", \"version\": \"3.11\"}\n  },\n  \"nbformat\": 4,\n  \"nbformat_minor\": 5\n}\n",
+      "modifiedBy": "user-585522db-4ede-4516-9328-923ff7a9c31a"
+    }
+  }
+]

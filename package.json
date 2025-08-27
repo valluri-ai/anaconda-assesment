@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
@@ -19,8 +22,16 @@
   "homepage": "https://github.com/valluri-ai/anaconda-assesment#readme",
   "devDependencies": {
     "@types/jest": "^30.0.0",
+    "@types/node": "^22.7.4",
+    "@types/react": "^18.3.5",
     "jest": "^30.0.5",
     "ts-jest": "^29.4.1",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "next": "^14.2.13",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
     "uuid": "^11.1.0"
   }
 }

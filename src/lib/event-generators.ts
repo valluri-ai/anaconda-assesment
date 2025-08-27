@@ -21,7 +21,7 @@ import {
 
 export type NotebookEvent = {
   name: string;
-  args: Record<string, any>;
+  args: unknown;
 };
 
 export function createActorProfileSetEvent(

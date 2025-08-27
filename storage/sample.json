@@ -1,0 +1,33 @@
+[
+  {
+    "name": "v1.ActorProfileSet",
+    "args": {
+      "id": "user-81323a6e-f88c-49d3-9600-f7e1051c1629",
+      "type": "human",
+      "displayName": "Notebook Importer"
+    }
+  },
+  {
+    "name": "v1.NotebookTitleChanged",
+    "args": {
+      "title": "Imported Notebook - 8/26/2025"
+    }
+  },
+  {
+    "name": "v2.CellCreated",
+    "args": {
+      "id": "cell-07501df7-8759-427f-84c8-140d24b7bcdd",
+      "cellType": "code",
+      "createdBy": "user-81323a6e-f88c-49d3-9600-f7e1051c1629",
+      "fractionalIndex": "mf"
+    }
+  },
+  {
+    "name": "v1.CellSourceChanged",
+    "args": {
+      "id": "cell-07501df7-8759-427f-84c8-140d24b7bcdd",
+      "source": "{\n  \"cells\": [\n    {\n      \"cell_type\": \"markdown\",\n      \"metadata\": {},\n      \"source\": [\"# Sample Notebook\"]\n    },\n    {\n      \"cell_type\": \"code\",\n      \"metadata\": {},\n      \"execution_count\": 1,\n      \"outputs\": [\n        {\n          \"output_type\": \"stream\",\n          \"name\": \"stdout\",\n          \"text\": \"Hello world\\n\"\n        }\n      ],\n      \"source\": [\"print('Hello world')\\n\"]\n    }\n  ],\n  \"metadata\": {\n    \"kernelspec\": {\n      \"display_name\": \"Python 3\",\n      \"language\": \"python\",\n      \"name\": \"python3\"\n    },\n    \"language_info\": {\n      \"name\": \"python\",\n      \"version\": \"3.11\"\n    }\n  },\n  \"nbformat\": 4,\n  \"nbformat_minor\": 5\n}\n",
+      "modifiedBy": "user-81323a6e-f88c-49d3-9600-f7e1051c1629"
+    }
+  }
+]

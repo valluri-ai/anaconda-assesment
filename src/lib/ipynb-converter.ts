@@ -102,12 +102,14 @@ export class IpynbConverter {
 
       // 4. Update our references for the next iteration.
       // We find the newly created cell's event to get its fractionalIndex.
-      const createdEvent = creationResult.events.find(e => e.name === 'v2.CellCreated');
+      const createdEvent = creationResult.events.find(
+        (e) => (e as any).name === 'v2.CellCreated'
+      ) as { args?: { fractionalIndex?: string } } | undefined;
       const newCellRef: CellReference = {
         id: newCellId,
         // The cellType here must match the one used in the event schema.
         cellType: cell.cell_type === 'code' ? 'code' : 'markdown',
-        fractionalIndex: createdEvent?.args.fractionalIndex || null,
+        fractionalIndex: createdEvent?.args?.fractionalIndex || null,
       };
 
       this.cellReferences.push(newCellRef);
