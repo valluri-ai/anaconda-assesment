@@ -1,0 +1,12 @@
+streamlit
+langchain
+langchain-anthropic
+langgraph
+pydantic
+e2b
+python-pptx
+environs
+langchain-sandbox
+yfinance
+plotly
+scikit-learn
